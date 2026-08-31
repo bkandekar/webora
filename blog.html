@@ -298,5 +298,114 @@
 
   <script src="js/main.js"></script>
   <script src="js/blog.js"></script>
+  <!-- ==========================================================================
+       Global Multi-Step Quote Modal
+       ========================================================================== -->
+  <div class="modal-backdrop" id="quoteModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div>
+          <h3 id="modalTitle" style="font-size: 1.25rem; color: var(--color-primary-navy);">Get a Free Project Quote</h3>
+          <p style="font-size: 0.85rem; color: var(--color-text-muted);">Step-by-step project estimate</p>
+        </div>
+        <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+
+      <div class="modal-progress">
+        <div class="modal-progress-bar" style="width: 25%;"></div>
+      </div>
+
+      <form id="quoteModalForm">
+        <div class="modal-body">
+          <!-- Step 1 -->
+          <div class="modal-step active" data-step="1">
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem;">1. What type of website do you need?</h4>
+            <div class="calc-options-grid">
+              <div class="calc-radio-card">
+                <input type="radio" id="modalTypeBusiness" name="modalSiteType" value="Business Website" checked>
+                <label for="modalTypeBusiness">Business Site</label>
+              </div>
+              <div class="calc-radio-card">
+                <input type="radio" id="modalTypeEcom" name="modalSiteType" value="E-Commerce Store">
+                <label for="modalTypeEcom">E-Commerce</label>
+              </div>
+              <div class="calc-radio-card">
+                <input type="radio" id="modalTypeLanding" name="modalSiteType" value="Landing Page">
+                <label for="modalTypeLanding">Landing Page</label>
+              </div>
+              <div class="calc-radio-card">
+                <input type="radio" id="modalTypeRedesign" name="modalSiteType" value="Website Redesign">
+                <label for="modalTypeRedesign">Site Redesign</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="modal-step" data-step="2">
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem;">2. How many pages do you require?</h4>
+            <div class="calc-options-grid">
+              <div class="calc-radio-card">
+                <input type="radio" id="modalPages1to5" name="modalPages" value="1-5 Pages (Starter)" checked>
+                <label for="modalPages1to5">1 – 5 Pages</label>
+              </div>
+              <div class="calc-radio-card">
+                <input type="radio" id="modalPages6to10" name="modalPages" value="6-10 Pages (Standard)">
+                <label for="modalPages6to10">6 – 10 Pages</label>
+              </div>
+              <div class="calc-radio-card">
+                <input type="radio" id="modalPages11plus" name="modalPages" value="11+ Pages (Custom)">
+                <label for="modalPages11plus">11+ Pages</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="modal-step" data-step="3">
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem;">3. What features do you need?</h4>
+            <div class="calc-checkboxes-grid">
+              <div class="calc-check-card">
+                <input type="checkbox" id="modalFeatSeo" name="modalFeatures" value="SEO Optimization" checked>
+                <label for="modalFeatSeo">SEO Setup</label>
+              </div>
+              <div class="calc-check-card">
+                <input type="checkbox" id="modalFeatWa" name="modalFeatures" value="WhatsApp Chat" checked>
+                <label for="modalFeatWa">WhatsApp Chat</label>
+              </div>
+              <div class="calc-check-card">
+                <input type="checkbox" id="modalFeatPayments" name="modalFeatures" value="Online Payments">
+                <label for="modalFeatPayments">Payment Gateway</label>
+              </div>
+              <div class="calc-check-card">
+                <input type="checkbox" id="modalFeatBlog" name="modalFeatures" value="Blog / CMS">
+                <label for="modalFeatBlog">Blog CMS</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="modal-step" data-step="4">
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem;">4. Your Contact Details</h4>
+            <div class="form-group">
+              <label class="form-label" for="modalClientName">Your Full Name *</label>
+              <input type="text" id="modalClientName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="modalClientPhone">WhatsApp Number *</label>
+              <input type="tel" id="modalClientPhone" class="form-input" placeholder="e.g. +91 83299 31123" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="modalPrevBtn" style="display: none;">Back</button>
+          <div style="flex-grow: 1;"></div>
+          <button type="button" class="btn btn-primary" id="modalNextBtn">Continue</button>
+          <button type="submit" class="btn btn-whatsapp" id="modalSubmitBtn" style="display: none;">
+            Get My Free Quote on WhatsApp
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
