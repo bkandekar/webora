@@ -4,7 +4,30 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   initBlogFilter();
-  initTableOfContents();
+  function initTableOfContents() {
+  const tocList = document.querySelector("#tocContainer");   // ← id match केला
+  const articleBody = document.querySelector(".blog-article-body");  // ← class match केला
+
+  if (!tocList || !articleBody) return;
+
+  const headings = articleBody.querySelectorAll("h2, h3");
+  if (!headings.length) return;
+
+  tocList.innerHTML = "";
+  headings.forEach((heading, index) => {
+    if (!heading.id) {
+      heading.id = `section-${index + 1}`;
+    }
+    const li = document.createElement("li");
+    li.className = heading.tagName.toLowerCase() === "h3" ? "toc-sub-item" : "toc-item";
+    const a = document.createElement("a");
+    a.href = `#${heading.id}`;
+    a.className = "toc-link";
+    a.textContent = heading.textContent;
+    li.appendChild(a);
+    tocList.appendChild(li);
+  });
+}
 });
 
 function initBlogFilter() {
