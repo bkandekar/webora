@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Showcase & UI Archetypes — WEBORA | Modern Web Designs</title>
+  <meta name="description" content="Explore Webora's exclusive design concepts, UI styles, and responsive website archetypes across SaaS, Luxury, E-Commerce, Corporate, and Hospitality.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="canonical" href="https://yourdomain.com/designs.html">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Global Header & Navigation
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="logo" id="mainLogo" aria-label="Webora Home">
+          <div class="logo-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <span class="logo-text">WEBORA<span class="logo-dot">.</span></span>
+        </a>
+
+        <ul class="nav-menu" id="desktopNav">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="designs.html" class="nav-link active">Designs <span class="nav-pill-badge">New</span></a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="index.html#processSection" class="nav-link">Process</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+          <li><a href="calculator.html" class="nav-link">Calculator</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="btn btn-primary open-quote-modal" id="navQuoteBtn">
+            Get a Free Quote
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+
+          <button class="menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav" id="mobileDrawer" aria-label="Mobile Navigation">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home <span>→</span></a></li>
+      <li><a href="designs.html" class="mobile-nav-link active">Designs & Archetypes (New) <span>→</span></a></li>
+      <li><a href="services.html" class="mobile-nav-link">Services <span>→</span></a></li>
+      <li><a href="portfolio.html" class="mobile-nav-link">Portfolio & Case Studies <span>→</span></a></li>
+      <li><a href="pricing.html" class="mobile-nav-link">Pricing Plans <span>→</span></a></li>
+      <li><a href="calculator.html" class="mobile-nav-link">Cost Calculator <span>→</span></a></li>
+      <li><a href="blog.html" class="mobile-nav-link">Blog & Insights <span>→</span></a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Agency <span>→</span></a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact Us <span>→</span></a></li>
+    </ul>
+
+    <div class="mobile-nav-footer">
+      <button class="btn btn-primary open-quote-modal w-full">
+        Get a Free Quote
+      </button>
+      <a href="https://wa.me/918329931123" class="btn btn-whatsapp w-full" target="_blank" rel="noopener noreferrer">
+        Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         Designs Hero Header
+         ========================================================================== -->
+    <section class="section-padding bg-dark text-light text-center" style="position: relative; overflow: hidden;">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-glow"></div>
+      <div class="hero-glow-secondary"></div>
+
+      <div class="container" style="position: relative; z-index: 2;">
+        <span class="section-tag dark reveal">Design Laboratory</span>
+        <h1 class="reveal" style="color: #FFFFFF; max-width: 860px; margin: 0 auto 1.5rem auto;">
+          Curated Design Styles, UI Archetypes & Website Aesthetics
+        </h1>
+        <p class="reveal" style="font-size: 1.2rem; color: #CBD5E1; max-width: 700px; margin: 0 auto 2rem auto;">
+          Explore our signature visual styles. From dark-mode SaaS dashboards to editorial luxury boutiques, every design is hand-crafted for high engagement, brand authority, and seamless conversions.
+        </p>
+
+        <!-- Quick Style Switcher Pills -->
+        <div class="design-style-pills reveal">
+          <a href="#tech" class="style-pill active">⚡ Tech & SaaS</a>
+          <a href="#luxury" class="style-pill">✨ Luxury & Lifestyle</a>
+          <a href="#ecommerce" class="style-pill">🛍️ E-Commerce</a>
+          <a href="#corporate" class="style-pill">🏢 Corporate & Advisory</a>
+          <a href="#creative" class="style-pill">🎨 Creative & Studio</a>
+          <a href="#hospitality" class="style-pill">🍷 Dining & Hospitalities</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Interactive Live Design Sandbox & Viewport Inspector
+         ========================================================================== -->
+    <section class="section-padding bg-light" id="designSandboxSection">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Interactive Preview</span>
+          <h2 class="section-title">Live Design Engine & Viewport Simulator</h2>
+          <p class="section-subtitle">Switch design styles, test responsive viewports, and inspect typography and color palettes in real-time.</p>
+        </div>
+
+        <div class="live-sandbox-wrapper reveal">
+          <!-- Sandbox Toolbar -->
+          <div class="sandbox-toolbar">
+            <!-- Theme Selectors -->
+            <div class="sandbox-style-select">
+              <span class="toolbar-label">Design Style:</span>
+              <button class="sandbox-tab active" data-style="saas">SaaS Dark Modern</button>
+              <button class="sandbox-tab" data-style="luxury">Luxury Gold Boutique</button>
+              <button class="sandbox-tab" data-style="ecommerce">Vibrant Retail Commerce</button>
+              <button class="sandbox-tab" data-style="corporate">Executive Corporate</button>
+            </div>
+
+            <!-- Viewport Switcher -->
+            <div class="sandbox-viewport-controls">
+              <span class="toolbar-label">Device:</span>
+              <button class="viewport-btn active" data-device="desktop" title="Desktop View (100%)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                Desktop
+              </button>
+              <button class="viewport-btn" data-device="tablet" title="Tablet View (768px)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                Tablet
+              </button>
+              <button class="viewport-btn" data-device="mobile" title="Mobile View (375px)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                Mobile
+              </button>
+            </div>
+          </div>
+
+          <!-- Sandbox Live Screen Frame -->
+          <div class="sandbox-screen-container">
+            <div class="sandbox-browser-mockup" id="sandboxMockup" data-device="desktop">
+              <!-- Browser Header -->
+              <div class="mockup-header">
+                <div class="mockup-dots">
+                  <span class="mockup-dot dot-red"></span>
+                  <span class="mockup-dot dot-yellow"></span>
+                  <span class="mockup-dot dot-green"></span>
+                </div>
+                <div class="mockup-url-bar" id="sandboxUrl">https://preview.webora.in/saas-ultra-dark</div>
+                <div class="mockup-badge" id="sandboxBadge">99 / 100 Speed</div>
+              </div>
+
+              <!-- Dynamic Interactive Canvas -->
+              <div class="sandbox-viewport-body" id="sandboxCanvas">
+                <!-- Style 1: SaaS Dark Modern (Default) -->
+                <div class="preview-theme preview-saas active" id="themeSaas">
+                  <div class="saas-hero">
+                    <div class="saas-badge"><span class="saas-dot"></span> Next-Gen Cloud Intelligence</div>
+                    <h2 class="saas-title">Scale Your Global Infrastructure in Seconds</h2>
+                    <p class="saas-sub">Autonomous telemetry, multi-region failover, and zero-latency Edge deployment built for hyper-growth engineering teams.</p>
+                    <div class="saas-cta-group">
+                      <button class="saas-btn-primary">Start 14-Day Free Trial</button>
+                      <button class="saas-btn-secondary">Explore API Docs →</button>
+                    </div>
+                    <div class="saas-stats-grid">
+                      <div class="saas-stat-card">
+                        <span class="saas-stat-val">99.999%</span>
+                        <span class="saas-stat-lbl">Uptime SLA Guaranteed</span>
+                      </div>
+                      <div class="saas-stat-card">
+                        <span class="saas-stat-val">&lt; 12ms</span>
+                        <span class="saas-stat-lbl">Global Edge Latency</span>
+                      </div>
+                      <div class="saas-stat-card">
+                        <span class="saas-stat-val">4.2M+</span>
+                        <span class="saas-stat-lbl">Requests per Minute</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Style 2: Luxury Gold Boutique -->
+                <div class="preview-theme preview-luxury" id="themeLuxury">
+                  <div class="luxury-hero">
+                    <span class="luxury-eyebrow">Haute Parfumerie &amp; Botanicals</span>
+                    <h2 class="luxury-title">The Art of Pure Olfactory Distinction</h2>
+                    <p class="luxury-sub">Hand-harvested rare florets from Grasse, matured in bespoke French oak casks to produce unforgettable signature fragrances.</p>
+                    <div class="luxury-cta-group">
+                      <button class="luxury-btn-primary">Explore Private Reserve</button>
+                      <button class="luxury-btn-outline">Book Private Atelier</button>
+                    </div>
+                    <div class="luxury-badges">
+                      <span>✦ 100% Organic Flacon Extract</span>
+                      <span>✦ Master Perfumer Crafted</span>
+                      <span>✦ Worldwide Concierge Delivery</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Style 3: Vibrant Retail Commerce -->
+                <div class="preview-theme preview-ecommerce" id="themeEcommerce">
+                  <div class="ecom-hero">
+                    <div class="ecom-banner">🔥 Summer Drop Live • 30% Off First Order</div>
+                    <div class="ecom-content">
+                      <h2 class="ecom-title">Urban Edge Techwear 2026 Collection</h2>
+                      <p class="ecom-sub">Waterproof GORE-TEX membranes engineered for unrestricted city movement and weather resistance.</p>
+                      <div class="ecom-card-row">
+                        <div class="ecom-item-card">
+                          <div class="ecom-tag">Best Seller</div>
+                          <div class="ecom-name">Stealth Modular Anorak</div>
+                          <div class="ecom-price">$189.00 <span class="old-price">$240.00</span></div>
+                          <button class="ecom-cart-btn">Quick Add to Cart 🛒</button>
+                        </div>
+                        <div class="ecom-item-card">
+                          <div class="ecom-tag">New</div>
+                          <div class="ecom-name">Apex Carbon Cargo Pant</div>
+                          <div class="ecom-price">$145.00</div>
+                          <button class="ecom-cart-btn">Quick Add to Cart 🛒</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Style 4: Executive Corporate -->
+                <div class="preview-theme preview-corporate" id="themeCorporate">
+                  <div class="corp-hero">
+                    <span class="corp-tag">Global Strategic Advisory</span>
+                    <h2 class="corp-title">Institutional Wealth &amp; Cross-Border Mergers</h2>
+                    <p class="corp-sub">Delivering disciplined capital governance, regulatory compliance, and multi-asset risk structuring for Fortune 500 enterprises.</p>
+                    <div class="corp-features">
+                      <div class="corp-feat-item">
+                        <div class="corp-feat-icon">🏛️</div>
+                        <h4>$14.8B+ Managed</h4>
+                        <p>Capital deployed across sovereign equity &amp; technology funds.</p>
+                      </div>
+                      <div class="corp-feat-item">
+                        <div class="corp-feat-icon">⚖️</div>
+                        <h4>Global Compliance</h4>
+                        <p>SEC, FCA, and FINMA fully certified advisory framework.</p>
+                      </div>
+                    </div>
+                    <div class="corp-cta">
+                      <button class="corp-btn">Schedule Board Consultation</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Style Specs Bar -->
+          <div class="sandbox-spec-bar" id="sandboxSpecs">
+            <div class="spec-col">
+              <span class="spec-title">Typography:</span>
+              <span class="spec-val" id="specTypo">Space Grotesk + Manrope</span>
+            </div>
+            <div class="spec-col">
+              <span class="spec-title">Color Palette:</span>
+              <div class="color-swatches" id="specSwatches">
+                <span class="swatch" style="background: #0B1020;" title="Dark Navy #0B1020"></span>
+                <span class="swatch" style="background: #2563EB;" title="Electric Blue #2563EB"></span>
+                <span class="swatch" style="background: #38BDF8;" title="Sky Blue #38BDF8"></span>
+                <span class="swatch" style="background: #10B981;" title="Emerald Green #10B981"></span>
+              </div>
+            </div>
+            <div class="spec-col">
+              <span class="spec-title">Target Industry:</span>
+              <span class="spec-val" id="specIndustry">B2B SaaS, AI &amp; Cloud Infrastructure</span>
+            </div>
+            <div class="spec-col">
+              <button class="btn btn-primary btn-sm open-quote-modal" id="specQuoteBtn">
+                Use This Design Style
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Comprehensive 12-Card Design Archetype Gallery
+         ========================================================================== -->
+    <section class="section-padding bg-white" id="designGallery">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Design Archetype Library</span>
+          <h2 class="section-title">12+ Specialized Design Frameworks Ready for Your Brand</h2>
+          <p class="section-subtitle">Every concept is custom-tailored with purpose-built typography, high-converting layouts, interactive micro-components, and mobile-first responsiveness.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="portfolio-filter-bar reveal">
+          <button class="filter-btn active" data-filter="all">All Designs (12)</button>
+          <button class="filter-btn" data-filter="tech">Tech &amp; SaaS</button>
+          <button class="filter-btn" data-filter="luxury">Luxury &amp; Lifestyle</button>
+          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+          <button class="filter-btn" data-filter="corporate">Corporate &amp; Legal</button>
+          <button class="filter-btn" data-filter="hospitality">Dining &amp; Hospitality</button>
+          <button class="filter-btn" data-filter="health">Health &amp; Medical</button>
+        </div>
+
+        <!-- Design Cards Grid -->
+        <div class="designs-grid">
+          <!-- Design 1: Tech & SaaS -->
+          <div class="design-card reveal" data-category="tech" id="tech">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80" alt="Nexus Cloud SaaS Design Concept">
+              <span class="design-badge tech">SaaS &amp; Tech</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="1">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Nexus SaaS Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Dark Mode • Glassmorphism</span>
+                <span class="design-speed">⚡ 99 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Nexus Cloud SaaS &amp; AI Platform</h3>
+              <p class="design-card-desc">High-tech aesthetic featuring telemetry dashboards, code snippet previews, dynamic pricing toggles, and live interactive feature tabs.</p>
+              <div class="design-features-list">
+                <span>✓ Interactive Dashboard Mockups</span>
+                <span>✓ Live API Pricing Switcher</span>
+                <span>✓ Lead Magnet Integrations</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#0F172A"></span>
+                  <span class="mini-swatch" style="background:#3B82F6"></span>
+                  <span class="mini-swatch" style="background:#10B981"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Nexus SaaS">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 2: Luxury Beauty & Spa -->
+          <div class="design-card reveal" data-category="luxury" id="luxury">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&auto=format&fit=crop&q=80" alt="Aura Luxury MedSpa Design Concept">
+              <span class="design-badge luxury">Luxury &amp; Spa</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="2">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Aura Luxury Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Editorial Serif • Champagne Gold</span>
+                <span class="design-speed">⚡ 98 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Aura Luxe MedSpa &amp; Aesthetic Clinic</h3>
+              <p class="design-card-desc">Warm editorial typography, treatment menu lookbooks, dermatologist staff galleries, and instant online consultation calendar booking.</p>
+              <div class="design-features-list">
+                <span>✓ Treatment Menu Lookbook</span>
+                <span>✓ WhatsApp VIP Concierge Button</span>
+                <span>✓ Patient Transformation Slider</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#1C1917"></span>
+                  <span class="mini-swatch" style="background:#D97706"></span>
+                  <span class="mini-swatch" style="background:#F5F5F4"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Aura Luxury">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 3: E-Commerce Streetwear -->
+          <div class="design-card reveal" data-category="ecommerce" id="ecommerce">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&auto=format&fit=crop&q=80" alt="Verve Streetwear E-Commerce Design Concept">
+              <span class="design-badge ecommerce">E-Commerce</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="3">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Verve E-Commerce Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">High-Velocity • Neo-Minimal</span>
+                <span class="design-speed">⚡ 99 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Verve High-Velocity E-Commerce</h3>
+              <p class="design-card-desc">Built for lightning checkout speeds, multi-variant color swatches, sticky slide-out cart drawers, and instant payment gateway support.</p>
+              <div class="design-features-list">
+                <span>✓ Slide-Out Fast Cart Drawer</span>
+                <span>✓ Dynamic Size &amp; Color Pickers</span>
+                <span>✓ Upsell &amp; Bundle Modules</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#09090B"></span>
+                  <span class="mini-swatch" style="background:#EF4444"></span>
+                  <span class="mini-swatch" style="background:#FAFAFA"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Verve E-Commerce">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 4: Corporate Legal & Wealth -->
+          <div class="design-card reveal" data-category="corporate" id="corporate">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=80" alt="Vanguard Corporate Legal Design Concept">
+              <span class="design-badge corporate">Corporate &amp; Law</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="4">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Vanguard Corporate Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Authoritative • Navy &amp; Slate</span>
+                <span class="design-speed">⚡ 100 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Vanguard Law &amp; Institutional Wealth</h3>
+              <p class="design-card-desc">Prestigious institutional corporate layout with partner biographies, practice area directories, client trust credentials, and inquiry gates.</p>
+              <div class="design-features-list">
+                <span>✓ Partner Profile Directory</span>
+                <span>✓ Confidential Case Intake Form</span>
+                <span>✓ Document &amp; Whitepaper Vault</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#0B1020"></span>
+                  <span class="mini-swatch" style="background:#2563EB"></span>
+                  <span class="mini-swatch" style="background:#94A3B8"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Vanguard Corporate">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 5: Dining & Hospitality -->
+          <div class="design-card reveal" data-category="hospitality" id="hospitality">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=80" alt="Artisan Bistro Dining Design Concept">
+              <span class="design-badge hospitality">Dining &amp; Bar</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="5">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Artisan Bistro Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Warm Terracotta • Rich Gastronomy</span>
+                <span class="design-speed">⚡ 99 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Artisan Rustic Bistro &amp; Cocktail Bar</h3>
+              <p class="design-card-desc">Interactive culinary menu with dietary tags, direct table booking calendar, WhatsApp takeout ordering, and event reservation modules.</p>
+              <div class="design-features-list">
+                <span>✓ Interactive Digital Food Menu</span>
+                <span>✓ Instant Table Reservation Flow</span>
+                <span>✓ WhatsApp Direct Order Bot</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#291C14"></span>
+                  <span class="mini-swatch" style="background:#EA580C"></span>
+                  <span class="mini-swatch" style="background:#FDE68A"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Artisan Bistro">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 6: Health & Dental -->
+          <div class="design-card reveal" data-category="health" id="health">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&auto=format&fit=crop&q=80" alt="Apex Dental Medical Clinic Design Concept">
+              <span class="design-badge health">Medical &amp; Dental</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="6">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Apex Dental Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Clean Clinical • Cyan &amp; White</span>
+                <span class="design-speed">⚡ 99 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Apex Specialty Medical &amp; Dental</h3>
+              <p class="design-card-desc">Patient trust-building layout with symptom-based appointment booking, doctor credentials, insurance acceptance badges, and Google Map integration.</p>
+              <div class="design-features-list">
+                <span>✓ 3-Step Patient Booking Wizard</span>
+                <span>✓ Doctor Credential Badges</span>
+                <span>✓ Local Google SEO Schema</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#0284C7"></span>
+                  <span class="mini-swatch" style="background:#0D9488"></span>
+                  <span class="mini-swatch" style="background:#F0F9FF"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Apex Dental">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 7: Real Estate & Architecture -->
+          <div class="design-card reveal" data-category="luxury">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&auto=format&fit=crop&q=80" alt="Horizon Real Estate & Architecture Design Concept">
+              <span class="design-badge luxury">Real Estate</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="7">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Horizon Real Estate Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Architectural Grid • Fullscreen Media</span>
+                <span class="design-speed">⚡ 98 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Horizon Luxury Villas &amp; Penthouses</h3>
+              <p class="design-card-desc">Immersive visual property showcase with interactive floor plan viewers, 360-degree tour triggers, neighborhood stats, and private viewing booking.</p>
+              <div class="design-features-list">
+                <span>✓ Interactive Floor Plan Modal</span>
+                <span>✓ Mortgage &amp; EMI Calculator</span>
+                <span>✓ VIP Private Viewing Scheduler</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#18181B"></span>
+                  <span class="mini-swatch" style="background:#CA8A04"></span>
+                  <span class="mini-swatch" style="background:#E4E4E7"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Horizon Real Estate">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 8: Creative Studio & Agency -->
+          <div class="design-card reveal" data-category="tech">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80" alt="Nova Studio Design Concept">
+              <span class="design-badge tech">Creative Studio</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="8">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Nova Studio Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Neo-Brutalist • High Contrast</span>
+                <span class="design-speed">⚡ 99 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Nova Digital Creative &amp; Motion Studio</h3>
+              <p class="design-card-desc">Bold typography, magnetic button hover interactions, video reel backgrounds, dynamic project filters, and award accolade showcases.</p>
+              <div class="design-features-list">
+                <span>✓ Video Reel Integration</span>
+                <span>✓ Magnetic Cursor Interactions</span>
+                <span>✓ Project Showcase Modals</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#000000"></span>
+                  <span class="mini-swatch" style="background:#6366F1"></span>
+                  <span class="mini-swatch" style="background:#FFFFFF"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Nova Studio">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 9: Fitness & Athletics Club -->
+          <div class="design-card reveal" data-category="health">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&auto=format&fit=crop&q=80" alt="Pulse Athletic Fitness Design Concept">
+              <span class="design-badge health">Fitness &amp; Gym</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="9">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Pulse Fitness Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">High Energy • Neon Electric</span>
+                <span class="design-speed">⚡ 99 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Pulse High-Performance Athletic Gym</h3>
+              <p class="design-card-desc">Dynamic class schedules, personal trainer booking profiles, membership tier comparisons, and instant free day pass lead generators.</p>
+              <div class="design-features-list">
+                <span>✓ Live Weekly Class Timetable</span>
+                <span>✓ 1-Click Free Pass Claim</span>
+                <span>✓ Member Transformation Gallery</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#0F172A"></span>
+                  <span class="mini-swatch" style="background:#84CC16"></span>
+                  <span class="mini-swatch" style="background:#F8FAFC"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Pulse Fitness">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 10: Education & Online Academy -->
+          <div class="design-card reveal" data-category="corporate">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&auto=format&fit=crop&q=80" alt="EduVentures Learning Academy Design Concept">
+              <span class="design-badge corporate">Education &amp; EdTech</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="10">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="EduVentures Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Accessible • Vibrant Learning</span>
+                <span class="design-speed">⚡ 100 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">EduVentures Professional Academy</h3>
+              <p class="design-card-desc">Structured course catalog, student outcome statistics, faculty directory, curriculum syllabi downloads, and enrollment checkout flows.</p>
+              <div class="design-features-list">
+                <span>✓ Course Syllabus PDF Download</span>
+                <span>✓ Student Review Ratings</span>
+                <span>✓ WhatsApp Admissions Counselor</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#1E293B"></span>
+                  <span class="mini-swatch" style="background:#4F46E5"></span>
+                  <span class="mini-swatch" style="background:#F1F5F9"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="EduVentures Academy">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 11: Artisan Bakery & Cafe -->
+          <div class="design-card reveal" data-category="hospitality">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&auto=format&fit=crop&q=80" alt="Flour &amp; Co Artisan Bakery Design Concept">
+              <span class="design-badge hospitality">Bakery &amp; Cafe</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="11">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="Flour &amp; Co Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">Warm Sourdough • Cosy Earth</span>
+                <span class="design-speed">⚡ 99 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">Flour &amp; Hearth Sourdough Bakery</h3>
+              <p class="design-card-desc">Artisanal pastry showcase, daily bake availability board, custom celebration cake ordering form, and catering party pack calculators.</p>
+              <div class="design-features-list">
+                <span>✓ Daily Fresh Bake Status Ticker</span>
+                <span>✓ Custom Cake Order Form</span>
+                <span>✓ Instant WhatsApp Pickup Channel</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#451A03"></span>
+                  <span class="mini-swatch" style="background:#B45309"></span>
+                  <span class="mini-swatch" style="background:#FEF3C7"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="Flour Bakery">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design 12: Fintech & Global Payments -->
+          <div class="design-card reveal" data-category="ecommerce">
+            <div class="design-img-frame">
+              <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&auto=format&fit=crop&q=80" alt="NovaPay Global Fintech Design Concept">
+              <span class="design-badge ecommerce">Fintech &amp; Pay</span>
+              <div class="design-overlay-actions">
+                <button class="btn btn-light btn-sm preview-design-btn" data-design="12">Inspect Design</button>
+                <button class="btn btn-primary btn-sm open-quote-modal" data-pref="NovaPay Fintech Theme">Choose This</button>
+              </div>
+            </div>
+            <div class="design-card-body">
+              <div class="design-meta">
+                <span class="design-style-tag">High-Tech Cyber • Electric Emerald</span>
+                <span class="design-speed">⚡ 99 PageSpeed</span>
+              </div>
+              <h3 class="design-card-title">NovaPay Global Merchant Payments</h3>
+              <p class="design-card-desc">Zero-fee cross-border settlement portal, multi-currency live conversion widgets, developer SDK documentation, and enterprise onboarding.</p>
+              <div class="design-features-list">
+                <span>✓ Live Exchange Rate Calculator</span>
+                <span>✓ PCI-DSS Level 1 Badges</span>
+                <span>✓ Instant Account Setup Flow</span>
+              </div>
+              <div class="design-card-footer">
+                <div class="mini-swatches">
+                  <span class="mini-swatch" style="background:#064E3B"></span>
+                  <span class="mini-swatch" style="background:#10B981"></span>
+                  <span class="mini-swatch" style="background:#ECFDF5"></span>
+                </div>
+                <button class="btn-link open-quote-modal" data-pref="NovaPay Fintech">Request This Design →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Design Comparison & Process Quality Section
+         ========================================================================== -->
+    <section class="section-padding bg-light">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Quality Engineering</span>
+          <h2 class="section-title">What Makes a Webora Website Design Superior?</h2>
+          <p class="section-subtitle">We do not use slow pre-made WordPress themes or bloated page-builder plugins. Every site is custom-engineered for maximum speed and conversions.</p>
+        </div>
+
+        <div class="standards-grid">
+          <div class="standard-card reveal">
+            <div class="standard-icon">⚡</div>
+            <h3 class="standard-title">Sub-Second Load Speeds</h3>
+            <p class="standard-desc">Optimized asset compression, pure semantic clean code, and zero render-blocking scripts keep Google PageSpeed scores at 95–100.</p>
+          </div>
+
+          <div class="standard-card reveal">
+            <div class="standard-icon">🎯</div>
+            <h3 class="standard-title">Conversion-Engineered UX</h3>
+            <p class="standard-desc">Strategic visual hierarchy, frictionless lead capture forms, and prominent WhatsApp CTAs turn passive browsers into paying clients.</p>
+          </div>
+
+          <div class="standard-card reveal">
+            <div class="standard-icon">📱</div>
+            <h3 class="standard-title">100% Mobile First &amp; Responsive</h3>
+            <p class="standard-desc">Tested across all modern iPhone, Android, iPad, and 4K desktop viewports with thumb-friendly navigation and crisp typography.</p>
+          </div>
+
+          <div class="standard-card reveal">
+            <div class="standard-icon">🔒</div>
+            <h3 class="standard-title">Clean SEO &amp; Security Standards</h3>
+            <p class="standard-desc">Valid semantic HTML5 hierarchy, JSON-LD structured schema for rich Google snippets, and hardened privacy compliance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Call to Action Banner
+         ========================================================================== -->
+    <section class="section-padding bg-dark text-light text-center" style="position: relative; overflow: hidden;">
+      <div class="hero-glow"></div>
+      <div class="container" style="position: relative; z-index: 2;">
+        <span class="section-tag dark reveal">Start Your Project</span>
+        <h2 class="reveal" style="color: #FFFFFF; max-width: 750px; margin: 0 auto 1.5rem auto;">
+          Love One of These Designs? Let's Customize It For Your Business.
+        </h2>
+        <p class="reveal" style="font-size: 1.2rem; color: #CBD5E1; max-width: 600px; margin: 0 auto 2.5rem auto;">
+          Get an exact timeline, itemized pricing breakdown, and a tailored visual blueprint within 24 hours.
+        </p>
+
+        <div class="btn-group justify-center reveal">
+          <button class="btn btn-primary btn-lg open-quote-modal">
+            Request a Custom Design Quote
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+          <a href="https://wa.me/918329931123?text=Hi%20Webora!%20I%20explored%20your%20design%20gallery%20and%20want%20to%20discuss%20a%20website%20design%20for%20my%20business." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener noreferrer">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.062-2.128-.535-1.745-.726-2.883-2.528-2.97-2.645-.088-.117-.708-.944-.708-1.8 0-.857.447-1.278.608-1.45.161-.173.351-.217.469-.217.118 0 .235 0 .339.006.11.006.257-.042.404.312.152.366.52 1.27.566 1.364.045.093.076.202.014.326-.062.124-.093.202-.186.311-.093.11-.196.245-.28.33-.093.093-.19.194-.082.381.109.186.483.797 1.037 1.29.712.635 1.312.831 1.499.924.186.093.295.078.404-.047.11-.124.471-.548.597-.736.126-.188.251-.157.422-.094.172.062 1.092.515 1.279.609.187.094.312.14.358.219.046.079.046.453-.098.858z"/>
+            </svg>
+            Discuss on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Global Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand-col">
+          <a href="index.html" class="logo footer-logo">
+            <div class="logo-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <span class="logo-text">WEBORA<span class="logo-dot">.</span></span>
+          </a>
+          <p class="footer-tagline">We Build Websites That Help Businesses Grow.</p>
+          <p class="footer-desc">Professional web design, technical development, SEO, and maintenance services for startups, local businesses, and modern enterprises.</p>
+          <div class="social-links">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services/website-design.html">Website Design</a></li>
+            <li><a href="services/website-development.html">Website Development</a></li>
+            <li><a href="services/business-websites.html">Business Websites</a></li>
+            <li><a href="services/ecommerce.html">E-Commerce Websites</a></li>
+            <li><a href="services/landing-pages.html">Landing Pages</a></li>
+            <li><a href="services/website-redesign.html">Website Redesign</a></li>
+            <li><a href="services/seo.html">SEO Services</a></li>
+            <li><a href="services/website-maintenance.html">Website Maintenance</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Design &amp; Work</h4>
+          <ul class="footer-links">
+            <li><a href="designs.html">Design Styles &amp; Sandbox</a></li>
+            <li><a href="portfolio.html">Case Studies &amp; Portfolio</a></li>
+            <li><a href="calculator.html">Cost Estimator Calculator</a></li>
+            <li><a href="pricing.html">Pricing Packages</a></li>
+            <li><a href="about.html">About Agency</a></li>
+            <li><a href="blog.html">Blog &amp; Knowledge Base</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Direct Contact</h4>
+          <ul class="footer-contact-list">
+            <li><strong>Call Us:</strong> <a href="tel:+919067257872">+91 90672 57872</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/918329931123" target="_blank" rel="noopener noreferrer">+91 83299 31123</a></li>
+            <li><strong>Email:</strong> <a href="mailto:hello@webora.in">hello@webora.in</a></li>
+            <li><strong>Hours:</strong> Mon – Sat: 9:00 AM – 7:00 PM IST</li>
+            <li><strong>Location:</strong> Mumbai &amp; Pune, India (Serving Clients Globally)</li>
+          </ul>
+          <button class="btn btn-primary btn-sm open-quote-modal" style="margin-top: 1.25rem;">Get Quick Proposal</button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> WEBORA. All Rights Reserved. Built with precision and care.</p>
+        <div class="legal-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+          <a href="refund-policy.html">Refund Policy</a>
+          <a href="sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Quote Modal & Floating Action Button & JavaScript -->
+  <div class="modal-overlay" id="quoteModalOverlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close quote modal">✕</button>
+      <div class="modal-header">
+        <span class="section-tag">Fast Consultation</span>
+        <h3 class="modal-title" id="modalTitle">Get Your Free Website Proposal</h3>
+        <p class="modal-subtitle">Fill in the details below or chat with us directly on WhatsApp for an immediate response.</p>
+      </div>
+
+      <form id="quoteForm" class="quote-form">
+        <div class="form-group">
+          <label for="quoteName">Full Name *</label>
+          <input type="text" id="quoteName" name="name" required placeholder="John Doe">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="quotePhone">Phone / WhatsApp Number *</label>
+            <input type="tel" id="quotePhone" name="phone" required placeholder="+91 83299 31123">
+          </div>
+          <div class="form-group">
+            <label for="quoteEmail">Email Address *</label>
+            <input type="email" id="quoteEmail" name="email" required placeholder="john@company.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="quoteService">Preferred Design / Service *</label>
+          <select id="quoteService" name="service" required>
+            <option value="Nexus SaaS / Tech">Nexus Cloud SaaS Design</option>
+            <option value="Aura Luxury MedSpa">Aura Luxury &amp; Spa Design</option>
+            <option value="Verve E-Commerce">Verve High-Velocity E-Commerce</option>
+            <option value="Vanguard Corporate">Vanguard Law &amp; Corporate</option>
+            <option value="Artisan Bistro">Artisan Rustic Bistro &amp; Dining</option>
+            <option value="Apex Dental">Apex Health &amp; Dental Clinic</option>
+            <option value="Custom Bespoke Design">Custom Bespoke Design from Scratch</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="quoteMessage">Project Goals or Notes (Optional)</label>
+          <textarea id="quoteMessage" name="message" rows="3" placeholder="Tell us about your business goals, target audience, or current website URL..."></textarea>
+        </div>
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-primary w-full" id="quoteSubmitBtn">
+            Send Proposal Request
+          </button>
+          <button type="button" class="btn btn-whatsapp w-full" id="quoteWhatsAppDirect">
+            Send via WhatsApp Directly 💬
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Action -->
+  <a href="https://wa.me/918329931123?text=Hi%20Webora!%20I%20am%20interested%20in%20building%20a%20website%20for%20my%20business." class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.062-2.128-.535-1.745-.726-2.883-2.528-2.97-2.645-.088-.117-.708-.944-.708-1.8 0-.857.447-1.278.608-1.45.161-.173.351-.217.469-.217.118 0 .235 0 .339.006.11.006.257-.042.404.312.152.366.52 1.27.566 1.364.045.093.076.202.014.326-.062.124-.093.202-.186.311-.093.11-.196.245-.28.33-.093.093-.19.194-.082.381.109.186.483.797 1.037 1.29.712.635 1.312.831 1.499.924.186.093.295.078.404-.047.11-.124.471-.548.597-.736.126-.188.251-.157.422-.094.172.062 1.092.515 1.279.609.187.094.312.14.358.219.046.079.046.453-.098.858z"/>
+    </svg>
+  </a>
+
+  <!-- Notification Toast -->
+  <div class="toast-notification" id="toastNotification">
+    <div class="toast-icon">✨</div>
+    <div class="toast-body">
+      <div class="toast-title" id="toastTitle">New Client Launched</div>
+      <div class="toast-msg" id="toastMsg">Bloom Botanical E-Commerce launched with 99 PageSpeed!</div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
