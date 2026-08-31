@@ -1218,11 +1218,18 @@ p {
   justify-content: center;
   transition: opacity var(--transition-normal);
 }
-
-.project-card:hover .project-overlay {
-  opacity: 1;
+.project-card {
+  &:hover .project-overlay {
+    opacity: 1;
+  }
 }
 
+@media (hover: none) {
+  .project-overlay {
+    opacity: 1;
+    background: rgba(11, 16, 32, 0.45);
+  }
+}
 .project-content {
   padding: 1.5rem 1.75rem 1.75rem;
   display: flex;
@@ -3784,5 +3791,17 @@ p {
   }
   .audit-metrics-grid {
     grid-template-columns: 1fr;
+  }
+}
+/* ==========================================================================
+   Touch Device Fix — always show hover-only overlays/buttons on touch
+   ========================================================================== */
+@media (hover: none) {
+  .project-overlay {
+    opacity: 1;
+    background: rgba(11, 16, 32, 0.45);
+  }
+  .design-overlay-actions {
+    opacity: 1;
   }
 }
